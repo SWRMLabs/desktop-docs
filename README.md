@@ -1,37 +1,43 @@
-### June 2020 (README)
 
-During June, we slowed down feature work in favor of reducing our bug backlog. However, we were still able to add some improvements.
+#### July 2020 (version 0.3.9_QA)
+
+During July, we slowed down feature work in favor of reducing our bug backlog. However, we were still able to add some improvements.
 
 Here are the highlights:
 
-* **SIZE**: 51.7 MB
-* **DATE**: 5 JUNE 2020
-* **Features Added**: Auto-Software update feature is added for windows.
+* **Size**: 70.7 MB
+* **Date**: 06 July 2020
 
 **Improvements**
 
-* Software Auto update feature added in windows os
-* Port Forwarding
-* App Size Reduced
-* Send OTP on sms
+* GRPC event integration (polling is removed and any event will trigger then it will catch the event and reflect like token, balance)
+* Storage size validation (if you utilize your storage and then try to reduce size then it will message)
+* Tooltip information containing name streamsapce
+* Uptime percentage is sync with cli
+* Rebranding change 
+  1. Cacher Desktop Application-streamspace => Hive Desktop app - SWRM Labs
+  2. SSH => SWRM 
+  3. Streamspace => SWRM Labs
+  4. Cacher => Hiver
+  5. Icon changes
+* Download Queue issue resolve when storage is not available
+* Upload Queue issue resolve when storage is not available
+* After loading login will not come if user is already logged in
 
 These are the improvement we have done
 
 **Bug Fixes**
 
-* Another tab in task bar to show the status of connection. 
-* Resizing of fixed width in windows causing issue. 
-* Working on Earnings page calculation by uploading files to Customer. 
-* Intermittent behaviour of Timer stuck at 00:00:00 
-* Killing all the process after stoping daemon successfully from app
-* Added daemon check to add file
-* Added loader while pausing
-* adding loader while pausing from tray
-* Start & Stop are dependent on Timer. 
-* Killing PID after stopping daemon from tray icon
+* Cli event integration with desktop application- CDN 770
+* Confirmation required before deleting a File - CDN 741
+* UI issues in desktop app - CDN 740
+* Refer friend functionality -CDN 696
+* When ping url of software-update not found - CDN 676
+* Upload queue allows duplicate file entries (intermittent) - CDN 769
+* Upload stuck at 0% if the file is uploaded when daemon is not running - CDN 595
+* Timer is displaying with grammatical errors -CDN 889
+
 
 These are the closed bugs
-<!-- * [4842](https://github.com/Microsoft/vscode/issues/48421): Allow to disable drag and drop in the files explorer
-These are the [closed bugs](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+label%3Abug+milestone%3A%22July+2016%22+is%3Aclosed) -->
 
-## Thank You
+#### Thank You
