@@ -1,28 +1,34 @@
 
-#### July 2020 (version 0.3.9_QA)
-
-During July, we slowed down feature work in favor of reducing our bug backlog. However, we were still able to add some improvements.
+#### July 2020 (version 1.0.0)
 
 Here are the highlights:
 
-* **Size**: 70.7 MB
-* **Date**: 06 July 2020
+* **Size**: 
+   windows - 84.6 MB
+   linux - 74.4 MB
+   mac -  114.5 MB
+* **Date**: 13 July 2020
 
 **Improvements**
 
-* GRPC event integration (polling is removed and any event will trigger then it will catch the event and reflect like token, balance)
-* Storage size validation (if you utilize your storage and then try to reduce size then it will message)
-* Tooltip information containing name streamsapce
-* Uptime percentage is sync with cli
-* Rebranding change 
-  1. Cacher Desktop Application-streamspace => Hive Desktop app - SWRM Labs
-  2. SSH => SWRM 
-  3. Streamspace => SWRM Labs
-  4. Cacher => Hiver
-  5. Icon changes
-* Download Queue issue resolve when storage is not available
-* Upload Queue issue resolve when storage is not available
-* After loading login will not come if user is already logged in
+**UI FIXES**
+1. whiteheader icon left margin
+2. dashboard font dynamic size
+3. node page equal card height
+4. wallet paage increase card height
+5. wallet font dynamic
+6. earning font dynamic
+7. earninng graph height
+8. earning alignment down
+9. logo in earning page
+10. band width over time small screen alignment issue
+11. All index.html cdn link should made as local assets (except cdn icons)
+12. software update modal size , font style , software update at center
+13. refer friend modal input field , position
+14. fileshare dragfiles height , space between icon and text retrive file button
+15. file hash input field not correct
+16. close icon in modals
+17. New Logo Added (HIVE)
 
 These are the improvement we have done
 
