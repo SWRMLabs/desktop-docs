@@ -1,4 +1,4 @@
-### June 2020 (readme)
+### June 2020 (README)
 
 During June, we slowed down feature work in favor of reducing our bug backlog. However, we were still able to add some improvements.
 
