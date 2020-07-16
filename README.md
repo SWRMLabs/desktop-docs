@@ -18,7 +18,7 @@ Here are the highlights:
 4. wallet paage increase card height
 5. wallet font dynamic
 6. earning font dynamic
-7. earninng graph height
+7. earning graph height
 8. earning alignment down
 9. logo in earning page
 10. band width over time small screen alignment issue
