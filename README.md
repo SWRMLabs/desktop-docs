@@ -11,6 +11,25 @@ Here are the highlights:
 
 **Improvements**
 
+* Software Auto update feature added in windows os
+* Port Forwarding
+* App Size Reduced
+* Send OTP on sms
+* Refer friend functionality
+* GRPC event integration (polling is removed and any event will trigger then it will catch the event and reflect like token, balance)
+* Storage size validation (if you utilize your storage and then try to reduce size then it will message)
+* Tooltip information containing name streamsapce
+* Uptime percentage is sync with cli
+* Rebranding change
+    Cacher Desktop Application-streamspace => Hive Desktop app - SWRM Labs
+    SSH => SWRM
+    Streamspace => SWRM Labs
+    Cacher => Hiver
+    Icon changes
+* Download Queue issue resolve when storage is not available
+* Upload Queue issue resolve when storage is not available
+* After loading login will not come if user is already logged in
+
 **UI FIXES**
 1. whiteheader icon left margin
 2. dashboard font dynamic size
@@ -42,6 +61,19 @@ These are the improvement we have done
 * Upload queue allows duplicate file entries (intermittent) - CDN 769
 * Upload stuck at 0% if the file is uploaded when daemon is not running - CDN 595
 * Timer is displaying with grammatical errors -CDN 889
+* Another tab in task bar to show the status of connection. 
+* Resizing of fixed width in windows causing issue. 
+* Working on Earnings page calculation by uploading files to Customer. 
+* Intermittent behaviour of Timer stuck at 00:00:00 
+* Killing all the process after stoping daemon successfully from app
+* Added daemon check to add file
+* Added loader while pausing
+* adding loader while pausing from tray
+* Start & Stop are dependent on Timer. 
+* Killing PID after stopping daemon from tray icon
+* Kill all unwanted threads while pause connection and re-use bandwidth polling thread for current session
+* Uptime timer when its greater then 24 hrs
+* Multiple upload file
 
 
 These are the closed bugs
