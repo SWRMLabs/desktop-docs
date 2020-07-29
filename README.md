@@ -78,4 +78,3 @@ These are the improvement we have done
 
 These are the closed bugs
 
-#### Thank You
