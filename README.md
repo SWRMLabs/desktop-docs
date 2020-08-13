@@ -4,77 +4,68 @@
 Here are the highlights:
 
 * **Size**: 
-   windows - 84.6 MB
-   linux - 74.4 MB
-   mac -  114.5 MB
+   Windows - 84.6 MB
+   Linux - 74.4 MB
+   Mac -  114.5 MB
 * **Date**: 13 July 2020
 
 **Improvements**
 
-* Software Auto update feature added in windows os
-* Port Forwarding
-* App Size Reduced
-* Send OTP on sms
-* Refer friend functionality
-* GRPC event integration (polling is removed and any event will trigger then it will catch the event and reflect like token, balance)
-* Storage size validation (if you utilize your storage and then try to reduce size then it will message)
-* Tooltip information containing name streamsapce
-* Uptime percentage is sync with cli
+* Auto-update feature added
+* Port forwarding checker
+* App size reduced
+* Send OTP via sms
+* GRPC event integration (polling removed)
+* Storage size validation (if you utilize your storage and then try to reduce size then an error is thrown)
+* Uptime percentage sync with cli
 * Rebranding change
     Cacher Desktop Application-streamspace => Hive Desktop app - SWRM Labs
     SSH => SWRM
     Streamspace => SWRM Labs
     Cacher => Hiver
     Icon changes
-* Download Queue issue resolve when storage is not available
-* Upload Queue issue resolve when storage is not available
-* After loading login will not come if user is already logged in
+* Download Queue issue resolved when storage is not available
+* Upload Queue issued resolve when storage is not available
+* After loading, login will not appear if user is already logged in
 
 **UI FIXES**
-1. whiteheader icon left margin
-2. dashboard font dynamic size
-3. node page equal card height
-4. wallet paage increase card height
-5. wallet font dynamic
-6. earning font dynamic
-7. earning graph height
-8. earning alignment down
-9. logo in earning page
-10. band width over time small screen alignment issue
-11. All index.html cdn link should made as local assets (except cdn icons)
-12. software update modal size , font style , software update at center
-13. refer friend modal input field , position
-14. fileshare dragfiles height , space between icon and text retrive file button
-15. file hash input field not correct
-16. close icon in modals
-17. New Logo Added (HIVE)
+1. White header icon left margin
+2. Dashboard dynamic font size
+3. Node page card height equalized
+4. Wallet page card height increased
+5. Wallet page dynamic font
+6. Earnings page dynamic font
+7. Earnings page graph height improved
+8. Earnings page alignment enhanced
+9. Logo for Earnings page
+10. Bandwidth over time- small screen alignment issue
+11. All index.html CDN links made as local assets (except CDN icons)
+12. Software update modal sized, font style, centered
+13. Refer friend modal input field, position improved
+14. Fileshare UI - drag files height, space between icon and text retrieve file button enhanced
+15. File hash input field fixed
+16. Close icon in modals
+17. New Hive logo added
 
-These are the improvement we have done
 
 **Bug Fixes**
 
-* Cli event integration with desktop application- CDN 770
-* Confirmation required before deleting a File - CDN 741
-* UI issues in desktop app - CDN 740
-* Refer friend functionality -CDN 696
-* When ping url of software-update not found - CDN 676
-* Upload queue allows duplicate file entries (intermittent) - CDN 769
-* Upload stuck at 0% if the file is uploaded when daemon is not running - CDN 595
-* Timer is displaying with grammatical errors -CDN 889
-* Another tab in task bar to show the status of connection. 
-* Resizing of fixed width in windows causing issue. 
-* Working on Earnings page calculation by uploading files to Customer. 
-* Intermittent behaviour of Timer stuck at 00:00:00 
-* Killing all the process after stoping daemon successfully from app
+* CLI event integration with desktop application
+* Confirmation required before deleting a file
+* UI issues in desktop app
+* Refer friend functionality
+* Upon pinging url of software- update not found
+* Upload queue allows duplicate file entries (intermittent)
+* Upload stuck at 0% if the file is uploaded when daemon is not running
+* Added tab in the taskbar to display connection status
+* Resizing of fixed width in windows 
+* Earnings page calculation by uploading files to Customer 
+* Intermittent behaviour of timer stuck at 00:00:00 
+* Kill all processes after successful daemon stop 
 * Added daemon check to add file
-* Added loader while pausing
-* adding loader while pausing from tray
-* Start & Stop are dependent on Timer. 
-* Killing PID after stopping daemon from tray icon
-* Kill all unwanted threads while pause connection and re-use bandwidth polling thread for current session
-* Uptime timer when its greater then 24 hrs
-* Multiple upload file
-
-
-These are the closed bugs
-
+* Added loader while paused
+* Adding loader while paused from tray
+* Start & Stop are dependent on timer 
+* Kill PID after daemon stopped via tray icon
+* Kill all unwanted threads with connection paused and re-use bandwidth polling thread for current session
+* Uptime format
