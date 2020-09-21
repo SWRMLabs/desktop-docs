@@ -7,7 +7,7 @@ Here are the highlights:
    Windows - 84.6 MB
    Linux - 74.4 MB
    Mac -  114.5 MB
-* **Date**: 13 July 2020
+* **Date**: 21 September 2020
 
 **Improvements**
 
