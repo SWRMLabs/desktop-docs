@@ -1,5 +1,5 @@
 
-#### September 2020 (version 1.0.0)
+#### September 2020 (version 1.0.1)
 
 Here are the highlights:
 
@@ -69,3 +69,7 @@ Here are the highlights:
 * Kill PID after daemon stopped via tray icon
 * Kill all unwanted threads with connection paused and re-use bandwidth polling thread for current session
 * Uptime format
+* Connected peers count is not displaying while launching the App
+* No response while changing the Storage size
+* Port is not forwarded response coming for the forwarded port during the initial check
+* Unable to upload files using File Share
