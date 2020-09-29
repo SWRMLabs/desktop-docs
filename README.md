@@ -1,5 +1,5 @@
 
-#### September 2020 (version 1.0.3)
+#### September 2020 (version 1.0.8)
 
 Here are the highlights:
 
