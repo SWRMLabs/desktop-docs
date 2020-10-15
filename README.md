@@ -12,7 +12,7 @@ Here are the highlights:
 **Improvements / Features**
 
 1. Notification system is integrated
-2. Automated (is automated the right word) Hive application restart in case of any sudden system restart. 
+2. Automated Hive application restart in case of any sudden system restart. 
 3. Use the Hive port forward check tool to test that your node is reachable and optimized in the SWRM CDN network for downloading data and earning tokens. 
 4. Referral link is implemented
 5. Migration from old versions to new versions is handled with the application. (auto-update) 
