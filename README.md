@@ -24,8 +24,10 @@ Here are the highlights:
 11. Auto-update feature (Windows & Mac OS only) installs the latest version of the Hive application automatically. 
 12. Auto-update fails (Windows & Mac OS only) due to any issue (network disconnect or auto-update error) we will download again and display new version to user.
 13. Device name is registered with user's system name. 
+14. Some code enhancements and bug fixes. 
 
 **Known Issues**
 
 1. Intermittent failure to start daemon automatically after changing storage folder location to new path and reload. 
 2. Systems didn't met the minimum specified requirements of SWRMLabs, delay in responses will see while using Hive application
+3. Some times while the device is busy "Quit" of application may take place for upto 60 seconds. 
