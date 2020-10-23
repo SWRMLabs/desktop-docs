@@ -14,7 +14,7 @@ Here are the highlights:
 1. Display banner continuously in Hive app until the user's port is forwarded.
 2. Notification is integrated, user can see all the notification in header on click of bell icon.
 3. Important notification will display in OS notification.
-4. On first start our application will redirect to settings page.
+4. On start of application you will be redirect to settings page.
 5. Clear all notification button on the top left of notification header.
 6. Clear notification each at a time.
 7. If daemon is crashed, restart the daemon automatically.
