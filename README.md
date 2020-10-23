@@ -26,4 +26,5 @@ Here are the highlights:
 
 **Known Issues**
 
-
+1. Intermittent failure to start daemon automatically after changing storage folder location to new path and reload. 
+2. Systems didn't met the minimum specified requirements of SWRMLabs, delay in responses will see while using Hive application
