@@ -12,7 +12,7 @@ Here are the highlights:
 **Improvements / Features**
 
 1. Display banner continuously in Hive app until the user's port is forwarded.
-2. Notification is integrated, user can see all the notification on top left of notification header.
+2. Notification is integrated, user can see all the notification in header on click of bell icon.
 3. Important notification will display in OS notification.
 4. On first start our application will redirect to settings page.
 5. Clear all notification button on the top left of notification header.
