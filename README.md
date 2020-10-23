@@ -11,16 +11,16 @@ Here are the highlights:
 
 **Improvements / Features**
 
-1. Display banner display continuously in Hive app until the user's port is forwarded.
+1. Display banner continuously in Hive app until the user's port is forwarded.
 2. Notification is integrated, user can see all the notification on top left of notification header.
-3. Important notification will display as OS notification.
-4. Only on first start it will redirect to settings page.
+3. Important notification will display in OS notification.
+4. On first start our application will redirect to settings page.
 5. Clear all notification button on the top left of notification header.
-6. Clear notification one at a time.
-7. Daemon is failing, restart the daemon automatically.
-8. App status will show correct result if user stopped daemon directly from the cli.
+6. Clear notification each at a time.
+7. If daemon is crashed, restart the daemon automatically.
+8. App status will show immediate result if user stopped daemon directly from the cli.
 9. Correct status display on settings page port is available or not
-10. Link is implemented how to do port forwarding.
+10. Link is attached on explaining the procedure of port forwarding.
 11. Auto-update feature (Windows & Mac OS only) installs the latest version of the Hive application automatically. 
 12. Auto-update fails (Windows & Mac OS only) due to any issue (network disconnect or auto-update error) we will download again and display new version to user. 
 
