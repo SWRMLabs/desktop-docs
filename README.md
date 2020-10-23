@@ -11,16 +11,19 @@ Here are the highlights:
 
 **Improvements / Features**
 
-1. Notification system is integrated
-2. Automated Hive application restart in case of any sudden system restart. 
-3. Use the Hive port forward check tool to test that your node is reachable and optimized in the SWRM CDN network for downloading data and earning tokens. 
-4. Referral link is implemented
-5. Migration from old versions to new versions is handled with the application. (auto-update) 
-6. Auto-update feature (Windows & Mac OS only) installs the latest version of the Hive application automatically. 
-7. File share feature (disabled by default) can be used to transfer files between peers if both are reachable and port forwarded. 
+1. Display banner continuously in desktop app until the user's port is forwarded.
+2. Notification is integrated, user can see all the notification on top left of notification header.
+3. Important notification will display as OS notification.
+4. Only on first start it will redirect to settings page.
+5. Clear all notification button on the top left of notification header.
+6. Clear notification one at a time.
+7. Daemon is failing, restart the daemon automatically.
+8. App status will show correct result if user stopped daemon directly from the cli.
+9. Correct status display on settings page when changing Swarm port(port is available or not)
+10.Link is implemented when user's port is not forwared
+11. Auto-update feature (Windows & Mac OS only) installs the latest version of the Hive application automatically. 
+12. Auto-update fails (Windows & Mac OS only) due to any issue (network disconnect or auto-update error) we will download again. 
 
 **Known Issues**
 
-1. In rare cases, the tray menu will not display actual status. 
-2. Swarm peers count may fail to update after running idle for hours. To fix, navigate to another tab and come back.
-3. Movement of SWRM storage to admin privileged folders and non-verified external hard disks (HDD, Pendrive e.t,c) not supported. 
+
