@@ -22,7 +22,8 @@ Here are the highlights:
 9. Correct status display on settings page port is available or not
 10. Link is attached on explaining the procedure of port forwarding.
 11. Auto-update feature (Windows & Mac OS only) installs the latest version of the Hive application automatically. 
-12. Auto-update fails (Windows & Mac OS only) due to any issue (network disconnect or auto-update error) we will download again and display new version to user. 
+12. Auto-update fails (Windows & Mac OS only) due to any issue (network disconnect or auto-update error) we will download again and display new version to user.
+13. Device name is registered with user's system name. 
 
 **Known Issues**
 
