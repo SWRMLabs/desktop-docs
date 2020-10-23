@@ -1,5 +1,5 @@
 
-#### October 2020 (version 1.0.17)
+#### October 2020 (version 1.0.18)
 
 Here are the highlights:
 
@@ -7,7 +7,7 @@ Here are the highlights:
    Windows - 82.4 MB
    Linux - 74.4 MB
    Mac -  120 MB
-* **Date**: 02 October 2020
+* **Date**: 23 October 2020
 
 **Improvements / Features**
 
