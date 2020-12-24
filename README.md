@@ -10,7 +10,7 @@ Here are the highlights:
  
 **Improvements / Features**
  
-1. Display banner continuously in Hive app until the user's port is forwarded.
+1. Display DNS banner continuously in Hive app until the user's restart node.
 2. Notification system integrated. User can see all the notifications in header.
 3. Important notifications will display in OS.
 4. On start of application user will be redirected to settings page.
@@ -27,6 +27,5 @@ Here are the highlights:
  
 **Known Issues**
  
-1. Intermittent failure to start daemon automatically after changing storage folder location to new path.
-2. Systems that don't meet the minimum specified requirements of SWRM Labs will experience a delay in responses while using the Hive application
-3. Sometimes while the device is busy, exiting the application may take up to 60 seconds. 
+Intermittent Trying to connect to bootstrap nodes message appears while pausing.
+
