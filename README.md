@@ -10,11 +10,11 @@ Here are the highlights:
  
 **Improvements / Features**
  
-1. Display DNS banner continuously in Hive app until the user's restart node.
+1. If user is enable for DNS then display DNS banner continuously in Hive app until the user's restart node.
 2. Notification system integrated. User can see all the notifications in header.
 3. In settings page user can enable/disable OS notifications.
 4. In settings page user can enable/disable Auto-start.
-5. User change modify API Port.
+5. User can modify API Port.
 6. Settings page new design
 7. Some minor code enhancements and bug fixes. 
  
