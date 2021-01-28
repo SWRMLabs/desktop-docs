@@ -1,4 +1,4 @@
-#### December 2020 (version 1.0.20)
+#### January 2020 (version 1.0.20)
  
 Here are the highlights:
  
@@ -6,19 +6,20 @@ Here are the highlights:
    Windows - 82.4 MB
    Linux - 74.4 MB
    Mac -  120 MB
-* **Date**: 24 December 2020
+* **Date**: 28 January 2020
  
-**Improvements / Features**
+**Bug Fixes / Improvements / Features**
  
-1. If user is enable for DNS then display DNS banner continuously in Hive app until the user's restart node.
-2. Notification system integrated. User can see all the notifications in header.
-3. In settings page user can enable/disable OS notifications.
-4. In settings page user can enable/disable Auto-start.
-5. User can modify API Port.
-6. Settings page new design
-7. Some minor code enhancements and bug fixes. 
- 
-**Known Issues**
- 
-Intermittent Trying to connect to bootstrap nodes message appears while pausing.
-
+1. Notifications are not received in Desktop App
+2. Banner notification not received after adding DNS to the user
+3. DNS update popup appearing before setup the DNS address
+4. Tray menu navigating to other screen while folder move
+5. OS Notification and Banner notification should appear together
+6. Update notification banner not appeared on existing screen
+7. Timer running but the status is paused when the 'Time to auto reconnect' ends in Node screen (intermittent)
+8. Time format mismatched for graph on Node screen
+9. File share screen not disappeared when config modified to False
+10. Folder move is not happening
+11. Incorrect message on console result
+12. System Notification disabled automatically
+13. Datastore migration from badger to level and vice versa
